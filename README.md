@@ -31,7 +31,6 @@ When the attacker tries to log in with the wrong password multiple times, the vi
 ```bash
 ssh-bruteforce-auto-blocker/
 ├── logs/
-│   ├── blocked_ips.log
 │   └── sample-auth.log
 ├── reports/
 │   └── incident-report.md
