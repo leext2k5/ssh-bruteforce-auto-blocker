@@ -1,0 +1,8 @@
+2026-06-11T16:17:38.577119+00:00 soc-victim sshd[25688]: Failed password for invalid user soc from 172.16.27.134 port 43874 ssh2
+2026-06-11T16:17:42.203299+00:00 soc-victim sshd[25688]: Failed password for invalid user soc from 172.16.27.134 port 43874 ssh2
+2026-06-11T16:17:59.359678+00:00 soc-victim sshd[25688]: Failed password for invalid user soc from 172.16.27.134 port 43874 ssh2
+2026-06-11T16:19:23.334150+00:00 soc-victim sshd[25694]: Failed password for invalid user soc from 172.16.27.134 port 59530 ssh2
+2026-06-11T16:19:26.806294+00:00 soc-victim sshd[25694]: Failed password for invalid user soc from 172.16.27.134 port 59530 ssh2
+2026-06-11T16:19:30.065094+00:00 soc-victim sshd[25694]: Failed password for invalid user soc from 172.16.27.134 port 59530 ssh2
+2026-06-11T16:19:53.901630+00:00 soc-victim sshd[25696]: Failed password for invalid user lxt from 172.16.27.134 port 58256 ssh2
+2026-06-11T16:19:57.614802+00:00 soc-victim sshd[25696]: Failed password for invalid user lxt from 172.16.27.134 port 58256 ssh2
