@@ -17,7 +17,7 @@ def is_whitelisted(ip):
 	return False
 
 def log_blocked_ip(ip):
-	timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:$S")
+	timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 	with open(BLOCKED_IPS_LOG, "a") as file:
 		file.write(f"[{timestamp}] Blocked IP: {ip}\n")
