@@ -24,7 +24,7 @@ def log_blocked_ip(ip):
 
 def block_ip(ip):
 	if is_whitelisted(ip):
-		printf(f"[+] Whitelisted IP, skip blocking: {ip}")
+		print(f"[+] Whitelisted IP, skip blocking: {ip}")
 		return False
 
 	if ip in blocked_ips:
@@ -42,5 +42,5 @@ def block_ip(ip):
 		return True
 
 	except subprocess.CallProcessError as e:
-		printf(f"[-] Failed to block IP {ip}: {e}")
+		print(f"[-] Failed to block IP {ip}: {e}")
 		return False
